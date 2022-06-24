@@ -11,9 +11,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style/style.css">
-    <title>MediaNetick | Help Center</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <title>MediaNetick | Help Center</title>
 </head>
-<body>
+<body >
 
 
 
@@ -21,31 +22,28 @@
     <div id="portfolio" class="container-fluid text-center bg-grey">
      
         <h2>do you need help?</h2><br>
-        <h4>MediaNetick</h4>
         <div class="row text-center slideanim">
           <div class="col-sm-4">
             <div class="thumbnail">
               <img src="img/medianetick.png" alt="MediaNetick" width="400" height="300">
-              <p><strong>MEDIANETICK LOGO</strong></p>
              
             </div>
           </div>
           <div class="col-sm-4">
-            We Are  MediaNetick   <br>   
-            MediaNetick is an Armenian organization,
-          <h4>MediaNetick Started Courses</h4>
-              <li>HTML/CSS</li>
-               <li>JS angularjs</li>
-              <li>PYTHON OOP</li>
-                            <li>Django  Framework</li>
+            
+          <h4>How can we help you?
+          </h4>
+          <div class="search-box">
+            <button class="btn-search" onclick="search()"><i class="fas fa-search" onclick="search()"></i></button>
+            <input type="text" id="searchbox" class="input-search" placeholder="Type to Search...">
+          </div>
 
 
 <br><br><br><br><br><br>
 
           </div>
           
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-       <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
        
        
         <h2>Our activities</h2>
@@ -60,13 +58,13 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <h4>Web Development<br><span> </span></h4>
+              <h4>Video Editing<br><span> </span></h4>
             </div>
             <div class="item">
-              <h4>Application Development<br><span></span></h4>
+              <h4>Photo Editing<br><span></span></h4>
             </div>
             <div class="item">
-              <h4>Web Design"<br><span></span></h4>
+              <h4>SMM<br><span></span></h4>
             </div>
             
           </div>
@@ -89,7 +87,13 @@
     <!-- Your Chat Plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-
+    <footer>
+      All Right Reserved &copy; <br>
+      by <a href="https://loreiom.github.io"> Loreiom Technologies</a>
+    </footer>
+<script>
+  alert("Website only frontend")
+</script>
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "104187255378643");
@@ -114,7 +118,7 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
 <script src="js/index.js"> 
-
 </script>
+<script src="js/search.js"></script>
 </body>
 </html>
